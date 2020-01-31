@@ -1,9 +1,8 @@
 # Nvidia GPU Fan Controller
----
+
 ## Requirements
 - Nvidia GPU driver has been installed correctly.
 - xorg.conf has been configured properly.
----
 
 ## Usage
 ### Control all GPU fans together
@@ -25,7 +24,6 @@ bash fanController.sh 80 0
 ``` bash
 bash fanController.sh 0 0
 ```
----
 
 ## Shortcut
 An alias for the command makes life easier. For instance, the bash script is stored at home directory, then the alias can be saved in ```~/.bashrc``` with following settings:
